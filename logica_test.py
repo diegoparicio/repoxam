@@ -3,13 +3,6 @@ import streamlit as st
 # logica.py
 
 import pandas as pd
-import numpy as np
-
-#_________________________________________________________________
-from sqlalchemy import engine
-from pandasql import sqldf
-pysqldf = lambda q: sqldf(q, globals())
-#_________________________________________________________________
 
 # 1. CARGA DE DATOS
 
