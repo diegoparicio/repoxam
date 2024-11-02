@@ -26,6 +26,6 @@ def cargar_datos(ruta_csv):
     return df
 
 # Cargar los datos (este es un ejemplo, el CSV debe estar en la ruta indicada)
-df = cargar_datos('laliga/database.csv')
+df = cargar_datos('database.csv')
 
 st.write(df)
