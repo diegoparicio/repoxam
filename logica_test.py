@@ -4,9 +4,6 @@ import streamlit as st
 
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics.pairwise import cosine_similarity
-from ayudantes import *
 
 #_________________________________________________________________
 from sqlalchemy import engine
